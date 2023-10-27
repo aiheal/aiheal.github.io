@@ -30,47 +30,41 @@
         margin-left: 150px;
         margin-top: 25px;
       }
+      
+    	body {
+    		padding: 0%;
+    		margin: 0%;
+    	}
+      
+    	.waves {
+    		padding: 200px;
+    		text-align: center;
+    	}
+    	
+    	section {
+    		width: 100%;
+    		min-height: 500px;
+    	}
+    	
+    	.pattern {
+    		position: relative;
+    		background-color: #3bb78f;
+    		background-image: linear-gradient(315deg,
+    						#3bb78f 0%, #0bab64 74%);
+    	}
+    	
+    	.pattern:before {
+    		content: "";
+    		position: absolute;
+    		bottom: 0;
+    		left: 0;
+    		width: 100%;
+    		height: 215px;
+    		background: url(wave.png);
+    		background-size: cover;
+    		background-repeat: no-repeat;
+    	}
 
-      section {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        min-height: 400px;
-        padding-top: 100px;
-        background: #3c31dd;
-    }
-    
-    .curve {
-        position: absolute;
-        height: 250px;
-        width: 100%;
-        bottom: 0;
-        text-align: center;
-    }
-    
-    .curve::before {
-        content: '';
-        display: block;
-        position: absolute;
-        border-radius: 100% 50%;
-        width: 55%;
-        height: 100%;
-        transform: translate(85%, 60%);
-        background-color: hsl(216, 21%, 16%);
-    }
-    
-    .curve::after {
-        content: '';
-        display: block;
-        position: absolute;
-        border-radius: 100% 50%;
-        width: 55%;
-        height: 100%;
-        background-color: #3c31dd;
-        transform: translate(-4%, 40%);
-        z-index: -1;
-    }
       
     </style>
     
@@ -78,10 +72,13 @@
 
   <body>
 
-    <section>
+    <section class="pattern">
       
-      <img src="logo_with_text.png" height="40px" alt="Logo" id="main-logo">
-      <div class="curve"></div>
+        <div class="waves">
+          
+          <img src="logo_with_text.png" height="40px" alt="Logo" id="main-logo">
+          
+        </div>
       
     </section>
     
