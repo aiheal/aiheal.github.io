@@ -1,87 +1,34 @@
 <html>
-
-  <head>
-
-    <title>AiHeal: It's Healthrific here!</title>
-    <meta charset="utf-8">
-
-    
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-
-    <style>
-
+<head>
+   <link rel="stylesheet" href="style.css" />
+   <title>CSS Waves</title>
+   <style>
+      html,
       body {
-        font-family: 'Lato', sans-serif;
+         height: 100%;
+      } 
+      wave-container {
+         height: 5%;
+         width: 100%;
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         background-color: #e6f2ff;
       }
-
-      #main-logo {
-        margin-left: 150px;
-        margin-top: 25px;
+      .wave {
+         background: url(https://ilumina.ca/img/blue_bg_02.png)
+         repeat-x;
+         position: absolute;
+         top: -198px;
+         width: 6400px;
+         height: 300px;
       }
-      
-    	body {
-    		padding: 0%;
-    		margin: 0%;
-    	}
-      
-    	.waves {
-    		padding: 200px;
-    		text-align: center;
-    	}
-    	
-    	section {
-    		width: 100%;
-    		min-height: 500px;
-    	}
-    	
-    	.pattern {
-    		position: relative;
-    		background-color: #3bb78f;
-    		background-image: linear-gradient(315deg,
-    						#3bb78f 0%, #0bab64 74%);
-    	}
-    	
-    	.pattern:before {
-    		content: "";
-    		position: absolute;
-    		bottom: 0;
-    		left: 0;
-    		width: 100%;
-    		height: 215px;
-    		background: url(wave.png);
-    		background-size: cover;
-    		background-repeat: no-repeat;
-    	}
-
-      
-    </style>
-    
-  </head>
-
-  <body>
-
-    <section class="pattern">
-      
-        <div class="waves">
-          
-          <img src="logo_with_text.png" height="40px" alt="Logo" id="main-logo">
-          
-        </div>
-      
-    </section>
-    
-  </body>
-  
+   </style>
+</head>
+<body>
+   <div class="wave-container">
+      <div class="wave"></div>
+      <div class="wave"></div>
+   </div>
+</body>
 </html>
