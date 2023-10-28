@@ -93,9 +93,10 @@
 
       .myButton {
         width: 5em;
+        cursor: pointer
         height: 2em;
         border: none;
-        border-radius: 20%
+        border-radius: 2em
         color: white;
         background: #04AA6D
       }
