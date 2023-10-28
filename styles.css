@@ -113,3 +113,11 @@
 		margin: auto;
 		padding: 8px;
 	}
+
+	.form_element {
+		width: 25em; 
+		height: 2.5em; 
+		border: none; 
+		border-radius: 0.5em; 
+		padding: 8px
+	}
