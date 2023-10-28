@@ -105,3 +105,8 @@
 	.myButton:hover {
 		background: #0271cc;
 	}
+
+	.centerdiv {
+		display: flex;
+		justify-content: center;
+	}
