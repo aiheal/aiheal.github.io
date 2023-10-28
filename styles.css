@@ -92,12 +92,12 @@
       }
 
       .myButton {
-        width: 5em;
-        cursor: pointer;
-        height: 2em;
-        border: none;
-        border-radius: 2em;
-        color: white;
-        font-weight: bold;
-        background: #04AA6D;
+          width: 9em;
+          cursor: pointer;
+          height: 3em;
+          border: none;
+          border-radius: 0.5em;
+          color: white;
+          font-weight: bold;
+          background: #0087f3;
       }
