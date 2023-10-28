@@ -26,12 +26,6 @@
       .navbar:hover {
         background:#fc9f00;
       }
-
-	.linkbutton {
-		text-decoration: none;
-		color: black;
-	}
-
       .navbar2 {
         cursor: pointer;
         color: white;
