@@ -110,7 +110,5 @@
 		background: #f2f2f2;
 		border-radius: 1em;
 		box-shadow: 0 27px 20px -19px rgb(122 62 134 / 31%);
-		display: flex;
-		justify-content: center;
 		margin: auto;
 	}
