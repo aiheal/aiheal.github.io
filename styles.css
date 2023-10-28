@@ -90,3 +90,12 @@
         from {opacity: .4} 
         to {opacity: 1}
       }
+
+      .button {
+        width: 5em;
+        height: 2em;
+        border: none;
+        border-radius: 20%
+        color: white;
+        background: #04AA6D
+      }
