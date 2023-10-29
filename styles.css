@@ -145,3 +145,11 @@
 		    height: 20px;
 		    background: #2e2d3a;
 	}
+
+	.blogpic {
+		float: right;
+		width: 40px;
+		display: inline-block;
+		margin: 10px;
+		margin-right: 24px;
+	}
